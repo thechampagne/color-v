@@ -22,11 +22,11 @@
 
 module color
 
-#flag -Ilib
-#flag -Llib
+#flag -I @VROOT/lib
+#flag -L @VROOT/lib
 #flag -lcolor
 #flag -pthread
-#include "lib/libcolor.h"
+#include "libcolor.h"
 fn C._BlackString(&char) &char
 fn C._RedString(&char) &char
 fn C._GreenString(&char) &char
