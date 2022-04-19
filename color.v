@@ -19,14 +19,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+module color
+
 #flag -Ilib
 #flag -Llib
 #flag -lcolor
 #flag -pthread
 #include "lib/libcolor.h"
-
-module color
-
 fn C._BlackString(&char) &char
 fn C._RedString(&char) &char
 fn C._GreenString(&char) &char
